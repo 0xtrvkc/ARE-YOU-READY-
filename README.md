@@ -6,7 +6,7 @@ A playful bilingual portfolio-allocation quiz that introduces three building blo
 - **Beta** — diversified broad-market exposure
 - **Alpha** — concentrated or active bets that may outperform or underperform
 
-The app combines a friendly onboarding flow with balanced five-question checkpoints for both Beta and Alpha.
+The app begins with a self-selected learning route, then combines a friendly onboarding flow with balanced five-question checkpoints for both Beta and Alpha.
 
 > Educational tool only—not financial advice.
 
@@ -18,12 +18,13 @@ After GitHub Pages is enabled, open:
 
 ## Features
 
+- Opening route selector: Quant or Practical
 - English and Thai modes
 - Cute and Brutal presentation modes
 - Responsive single-file design for desktop and mobile
 - Cash-runway and risk-capacity questions
-- Five-question Beta technical checkpoint
-- Five-question Alpha technical checkpoint
+- Quant route with five exact Beta questions and five exact Alpha questions
+- Practical route covering index funds, diversification, grids, indicators, and basic risk
 - Deterministically shuffled answer choices
 - Exact-answer scoring
 - Conservative Alpha ceiling of 10%
@@ -38,15 +39,16 @@ After GitHub Pages is enabled, open:
 ## How to use
 
 1. Open `index.html` or the GitHub Pages site.
-2. Choose **English/Thai** and **Cute/Brutal** from the header.
-3. Answer the cash, runway, Beta, risk, and Alpha questions.
-4. Use **Previous** to revisit the preceding page. The app restores the earlier answer, score, question position, and shuffled choice order.
-5. On the final page, adjust the allocation with the slider or presets.
-6. Select **Home** to return to the beginning.
+2. Choose **I know the technical stuff** for the Quant route or **Keep it practical** for the plain-language route.
+3. Choose **English/Thai** and **Cute/Brutal** from the header.
+4. Answer the cash, runway, Beta, risk, and Alpha questions.
+5. Use **Previous** to revisit the preceding page. The app restores the earlier answer, score, question position, and shuffled choice order.
+6. On the final page, adjust the allocation with the slider or presets.
+7. Select **Home** to return to the beginning.
 
 ## Scoring and allocation
 
-The Beta and Alpha checkpoints each contain five questions with one exact answer per question.
+Both routes contain five Beta questions and five Alpha/practical-skill questions, with one intended answer per question. The Quant route tests exact formulas and definitions; the Practical route uses plain-language investing and trading situations.
 
 - **Beta 5/5:** continue to risk capacity and the Alpha checkpoint.
 - **Beta below 5/5:** pause at Cash or use Cash plus diversified Beta.
@@ -69,7 +71,7 @@ Repeat the action to turn highlighting off.
 
 ## Bilingual behavior
 
-Switching language re-renders the current page without resetting the quiz. Navigation history and prior answers remain available.
+Switching language re-renders the opening route selector or current quiz page without resetting progress. Navigation history and prior answers remain available.
 
 ## Technical notes
 
