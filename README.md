@@ -6,7 +6,7 @@ A playful bilingual portfolio-allocation quiz that introduces three building blo
 - **Beta** — diversified broad-market exposure
 - **Alpha** — concentrated or active bets that may outperform or underperform
 
-The app combines a friendly onboarding flow with a seven-question technical checkpoint before allowing an Alpha allocation.
+The app combines a friendly onboarding flow with balanced five-question checkpoints for both Beta and Alpha.
 
 > Educational tool only—not financial advice.
 
@@ -22,8 +22,8 @@ After GitHub Pages is enabled, open:
 - Cute and Brutal presentation modes
 - Responsive single-file design for desktop and mobile
 - Cash-runway and risk-capacity questions
-- Beta definition gate
-- Seven-question Alpha technical checkpoint
+- Five-question Beta technical checkpoint
+- Five-question Alpha technical checkpoint
 - Deterministically shuffled answer choices
 - Exact-answer scoring
 - Conservative Alpha ceiling of 10%
@@ -31,7 +31,6 @@ After GitHub Pages is enabled, open:
 - Presets and a risk-adjustment slider
 - Previous navigation with complete answer restoration
 - Home navigation on the final page
-- Press-and-hold ELI5 explanations for every question and choice
 - Quant terminology index
 - Reduced-motion support
 - Hidden answer-highlighting mode
@@ -41,19 +40,18 @@ After GitHub Pages is enabled, open:
 1. Open `index.html` or the GitHub Pages site.
 2. Choose **English/Thai** and **Cute/Brutal** from the header.
 3. Answer the cash, runway, Beta, risk, and Alpha questions.
-4. Hold any question or answer choice for about **0.7 seconds** to open its ELI5 explanation.
-5. Use **Previous** to revisit the preceding page. The app restores the earlier answer, score, question position, and shuffled choice order.
-6. On the final page, adjust the allocation with the slider or presets.
-7. Select **Home** to return to the beginning.
-
-A completed long press does not also select the answer, which makes the interaction safe on touchscreens.
+4. Use **Previous** to revisit the preceding page. The app restores the earlier answer, score, question position, and shuffled choice order.
+5. On the final page, adjust the allocation with the slider or presets.
+6. Select **Home** to return to the beginning.
 
 ## Scoring and allocation
 
-The Alpha checkpoint contains seven questions, each with one exact answer.
+The Beta and Alpha checkpoints each contain five questions with one exact answer per question.
 
-- **7/7:** choose an Alpha allocation of 0%, 5%, or 10%.
-- **Below 7/7:** the app recommends Cash plus diversified Beta.
+- **Beta 5/5:** continue to risk capacity and the Alpha checkpoint.
+- **Beta below 5/5:** pause at Cash or use Cash plus diversified Beta.
+- **Alpha 5/5:** choose an Alpha allocation of 0%, 5%, or 10%.
+- **Alpha below 5/5:** the app recommends Cash plus diversified Beta.
 - **Alpha:** always capped at 10% by the app.
 - **Cash:** begins from the selected emergency runway.
 - **Beta:** receives the remaining allocation.
@@ -71,7 +69,7 @@ Repeat the action to turn highlighting off.
 
 ## Bilingual behavior
 
-Switching language re-renders the current page without resetting the quiz. Navigation history and prior answers remain available. ELI5 controls and explanations also follow the selected language.
+Switching language re-renders the current page without resetting the quiz. Navigation history and prior answers remain available.
 
 ## Technical notes
 
