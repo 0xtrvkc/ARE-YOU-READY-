@@ -115,10 +115,3 @@ Visit `http://localhost:8000`.
 ## License
 
 No license has been specified yet. Add a license file before permitting reuse or redistribution.
-
-
-## Optional Jev upgrade
-
-**Misconception coach.** After answering a Beta or Alpha checkpoint question, explain your reasoning about the most recently answered question. The input preview never exposes the reference answer for an unanswered question. Jev selects one concept or no clear misconception, and the app shows a prewritten English or Thai review matching the question language. Changing the question clears the old result. Exact scoring, shuffled answers, navigation history and allocation limits remain deterministic.
-
-See [JEV.md](JEV.md) for browser-first setup, privacy, input limits, tests and live-evaluation limitations. Existing functionality works without Jev configuration.
